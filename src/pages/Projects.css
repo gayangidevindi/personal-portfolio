@@ -130,3 +130,32 @@
         height: 180px;
     }
 }
+
+.details-btn,
+.back-btn {
+  margin-top: 10px;
+  padding: 8px 16px;
+  border: none;
+  background-color: #1914b3;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.details-btn:hover,
+.back-btn:hover {
+  background-color: #1e64dd;
+}
+
+.project-details {
+  text-align: center;
+  padding: 20px;
+}
+
+.detail-image {
+  width: 60%;
+  max-width: 500px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
